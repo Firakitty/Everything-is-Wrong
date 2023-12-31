@@ -714,7 +714,7 @@ class MakeClanScreen(Screens):
                 self.elements['cat_name'].set_text(str(selected.name) +
                                                    ' --> ' +
                                                    selected.name.prefix +
-                                                   'star')
+                                                   'tempo')
             else:
                 self.elements['cat_name'].set_text(str(selected.name))
             self.elements['cat_name'].show()
